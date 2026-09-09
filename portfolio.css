@@ -1,0 +1,173 @@
+main{
+    display:flex;
+}
+
+fieldset{
+    width:500px;
+    padding: 5px;
+}
+
+#MainSec{
+    
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: (2, minmax(120px, auto));
+
+    grid-template-areas: 
+    "myfirst mysecond mythird aside"
+    "myfourth myfifth mysixth aside";
+}
+
+header{
+    background-color: lightslategray;
+    position: sticky;
+    top:0;
+    left:0;
+    right:0;
+}
+#logoP{
+    width: 150px;
+    height: 150px;
+    padding:10px; 
+}
+
+aside{
+    grid-area: aside;
+    text-align: center;
+    color: lightgray;
+    background-color: aliceblue;
+    padding-top: 20px;
+    height: 600px;
+}
+
+footer{ 
+    background-color: lightslategray;
+    text-align: center;
+    padding: 10px;
+    
+}
+.link1{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#nav{
+    list-style-type: none;
+    display: flex;
+   float:right;
+   margin-top:125px;   
+}
+
+li{
+    margin: 5px;
+    
+}
+
+.link1:hover{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+legend{
+    text-align: center;
+    
+}
+
+.A1{
+    grid-area: myfirst;
+    margin: 5px;
+    background-color: lightgray;
+    padding: 15px;
+}
+.A2{
+    grid-area: mysecond;
+    margin: 5px;
+    background-color: lightgray;
+    padding: 15px;
+    
+}
+.A3{
+    grid-area: mythird;
+    margin: 5px;
+    background-color: lightgray;
+    padding: 15px;
+}
+.A4{
+    grid-area: myfourth;
+    margin: 5px;
+    background-color: lightgray;
+    padding: 15px;
+}
+.A5{
+    grid-area: myfifth;
+    margin: 5px;
+    background-color: lightgray;
+    padding: 15px;
+}
+.A6{
+    grid-area: mysixth;
+    margin: 5px;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+.ProjectImages{
+    width: 300px;
+    height: 200px;
+    border-radius: 25px;
+   
+}
+
+span{
+    color: grey;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ImageLink{
+    text-decoration: none;
+    color: gray;
+    
+   
+}
+
+.ImageLink:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+button{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 125px;
+    
+}
+
+#Copy{
+    text-align: center;
+}
+
+#AsideList{
+    list-style: none;
+}
+#Vision{
+    padding:15px;
+    margin-left: 30px;
+}
+
+.icons ion-icon{
+    font-size: 25px;
+    padding-left: 14px;
+    color: gold;
+}
+
+ion-icon:hover{
+    color: white;
+}

@@ -1,0 +1,173 @@
+#container{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(10px,auto);
+
+    grid-template-areas: 
+    
+    "Myheader Myheader Myheader Myheader"
+    "main main main aside"
+    "main main main aside"
+    "main main main aside"
+    "footer footer footer footer"
+    ;
+}
+
+header{
+    grid-area: Myheader;
+    background-color: lightslategray;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+#logoP{
+    width: 150px;
+    height: 150px;
+    padding:10px
+    
+}
+
+main{
+    grid-area: main;
+}
+
+aside{
+    grid-area: aside;
+    text-align: center;
+    margin-top: 150px;
+    color: lightgray;
+    margin-left: 50px;
+    background-color: aliceblue;
+    margin-left: 115px;
+    
+    margin-top: 30px;
+    padding-top: 20px;
+    height:625px
+    
+
+}
+
+footer{
+    grid-area: footer;
+    background-color: lightslategray;
+    text-align: center;
+    padding: 10px;
+    
+}
+.link1{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#nav{
+    list-style-type: none;
+    display: flex;
+    float: right;
+    margin-top:125px; 
+}
+
+li{
+    margin: 10px;
+}
+
+.link1:hover{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+legend{
+    text-align: center;
+    
+}
+
+.GalleryImages{
+    height: 200px;
+    width: 350px;
+    margin:2px;
+
+}
+
+#MainSec{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(100px,auto);
+    
+
+    grid-template-areas: 
+    "A1 A2 A3"
+    "A4 A5 A6";
+
+}
+#A1{
+    grid-area: A1;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    
+}
+#A2{
+    grid-area: A2;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    
+    
+}
+#A3{
+    grid-area: A3;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    
+}
+#A4{
+    grid-area: A4;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    
+}
+#A5{
+    grid-area: A5;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    
+}
+#A6{
+    grid-area: A6;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    
+}
+
+
+#Copy{
+    text-align: center;
+}
+
+#AsideList{
+    list-style: none;
+}
+#Vision{
+    padding:15px;
+    margin-left: 30px;
+}
+
+.icons ion-icon{
+    font-size: 25px;
+    padding-left: 14px;
+    color: gold;
+}
+
+ion-icon:hover{
+    color: white;
+}

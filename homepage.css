@@ -1,0 +1,150 @@
+body{
+    position:static;
+}
+
+
+.main{
+    height:100vh;
+    background-image: url("Images/Homepage2.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Logo{
+    width:40vh;
+    height:20vh;
+}
+
+.navigation{
+    display:flex;
+    float: right;
+    margin: 10px;
+}
+
+#menu{
+    display: flex;           /*display items horizontally*/
+    list-style:none;         /*removes bullet points*/
+
+}
+
+li{ 
+    margin: 9px;            /*puts spaces between list items*/
+}
+
+.page{
+    color:white;
+    text-decoration: none;     /*removes the underline*/
+    padding: 8px;
+    border: 1px solid white;
+    border-radius:30px;
+}
+
+.page:hover {
+    background-color: white;
+    border:1px solid white;
+    color: black;
+    border-radius: 30px;
+}
+
+#container1{
+   
+    padding: 1px;
+    Margin-top: 5px;
+    text-align:center;
+}
+
+h1{
+    color:black;
+    
+}
+
+span{
+    font-style:oblique;
+    color:gold;
+}
+.par{
+    color:white;
+    font-size: medium;
+}
+
+strong{
+    color:black;
+}
+
+.lastline{
+    color:gold;
+    font-size: medium;
+    font-style: italic;
+}
+
+.form{
+    border: 3px solid white;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(0,0,0,0.3), rgb(0,0,0,0.3));
+    width: 250px;
+    height:300px;
+    margin:0 auto;
+    padding: 20px;
+    
+}
+
+.form h2{
+    width:220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: gold;
+    font-size:22px;
+    border: 3px solid white;
+    padding: 8px;
+    margin: 2px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+.form p{
+    color:white;
+}
+.btn{
+    width:70px;
+    height:30px;
+    
+    margin-top: 5px;
+    padding: 5px;
+    background-color: gold;
+    border:none;
+
+}
+.form #btn{
+    color:black;
+}
+
+.btn:hover{
+    background-color:white;
+}
+
+.btn a{
+    text-decoration: none;
+}
+.form a{
+    color:aqua;
+}
+
+.other{
+    text-align:center;
+}
+
+.login{
+    text-align: center;
+}
+
+.icons ion-icon{
+    font-size: 25px;
+    padding-left: 14px;
+    color: gold;
+}
+
+ion-icon:hover{
+    color: white;
+}
